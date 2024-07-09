@@ -1,0 +1,118 @@
+.titulo{
+    font-size: 30px;
+}
+
+/*//AQUI ABAJO ES PARA QUITARLES LAS FLECHAS A LOS INPPUT NUMBER*/
+
+
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+/*AQUI ABAJO ES PARA EL LOGIN DE LA INTERFACE*/
+.login-usuario{
+width: 20%;
+left: 800px;
+position: relative;
+display: block;
+}
+
+.icono-login{
+
+left: 980px;    
+position: relative;
+
+}
+/*AQUI ES EL PADRE DE LOS LOGIN OSEA EL USUARIO Y CONTRASEÑA*/
+.padre{
+    position: relative;
+    display: block;
+    top: 10px;
+}
+
+.boton-login{
+    width: 70px;
+    left: 800px;
+/*    display: block;*/
+    position: relative;
+
+
+}
+
+
+
+.login-contra{
+ width: 20%;
+left: 800px;
+position: relative;
+ 
+}
+.icono-contra{
+
+left: 980px;    
+position: relative;
+display: block;
+
+}
+
+
+
+
+/*AQUI ABAJO ES PARA QUITARLE LA FLECHA AL SELECT*/
+
+ select{
+ border: 1px solid #ccc;
+
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+ }
+
+input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+select:-ms-expand {
+    display: none;
+}
+
+.nutriente{
+    position: relative;
+    display: block;
+    width: 50px;
+}
+/*AQUI MODIFICA EL TR DE CADA ELEMENTO ES DECIR EL FONDO CAMBIA A AZUL*/
+.elemento{
+    background: #80bfef;
+       position: relative;
+   display: table-cell;
+   width: 100%;
+    height: 35px;
+}
+
+.elementos{
+    position: relative;
+    
+    
+}
+
+
+
+
+/*.tabla_pequeña{
+position: relative;
+display: block;
+width: 1000px;
+float: right; 
+}*/
+
+
+
+
+
